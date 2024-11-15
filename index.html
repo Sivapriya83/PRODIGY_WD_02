@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dynamic Stopwatch</title>
+</head>
+<body>
+    <!-- Mode Toggle -->
+    <button id="modeToggle" onclick="toggleMode()">🌙</button>
+
+    <!-- Stopwatch Card -->
+    <div class="container">
+        <div class="stopwatch-card">
+            <div class="stopwatch-header">
+                <h1>Professional Stopwatch</h1>
+                <p>Track your time effortlessly with style.</p>
+            </div>
+            <div class="stopwatch-display" id="display">00:00:000</div>
+            <div class="button-container">
+                <button id="startStop" onclick="startStop()">Start</button>
+                <button id="lap" onclick="recordLap()">Lap</button>
+                <button id="reset" onclick="reset()">Reset</button>
+            </div>
+            <div class="lap-list-container">
+                <ul id="laps"></ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Built with ❤️ by <span class="footer-name">Sivapriya J Sivan</span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
