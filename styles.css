@@ -75,6 +75,7 @@ body.dark-mode {
     #modeToggle {
         font-size: 1.5rem;
         margin-top: 20px; /* Move it 20px further down */
+        margin-right: 20px;
     }
 }
 /* Container Styling */
