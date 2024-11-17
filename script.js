@@ -35,7 +35,7 @@ function reset() {
     startTime = 0;
     lapCounter = 1;
 
-    document.getElementById("display").innerText = "00:00:000";
+    document.getElementById("display").innerText = "00:00:00";
     document.getElementById("startStop").innerText = "Start";
     document.getElementById("startStop").style.backgroundColor = "#ff5c8d";
     document.getElementById("laps").innerHTML = "";
